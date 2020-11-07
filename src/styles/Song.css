@@ -1,0 +1,15 @@
+.song{
+    color: rgb(0, 0, 0);
+}
+
+.song-image {
+  width: 30%;
+  border-radius: 10%;
+}
+
+.song-artist {
+    
+}
+.song-title{
+    color: rgb(71, 70, 70);
+}

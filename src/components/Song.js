@@ -1,9 +1,11 @@
 import React from 'react'
 import '../styles/Song.css'
-function Song() {
+function Song({artist, song, image}) {
     return (
-        <div>
-            <h2>hello</h2>
+        <div className="song">
+            <img className="song-image" src={image} />
+            <h3 className="song-artist">{artist}</h3>
+            <p className="song-title">{song}</p>
         </div>
     )
 }
